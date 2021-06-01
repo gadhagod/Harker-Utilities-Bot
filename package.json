@@ -1,0 +1,24 @@
+{
+  "name": "harker-hs-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "run": "node out/index.js",
+    "start": "npm run build && npm run run"
+  },
+  "author": "Aarav Borthakur",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/request": "^2.48.5",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "harker-api": "^1.0.2",
+    "random-hex-color": "^1.0.1",
+    "request": "^2.88.2"
+  }
+}
